@@ -10,12 +10,22 @@
 <h1>Hello World!</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <form ng-controller="myController">
-  <label for="name">名前：</label>
+  <label for="pass">パス：</label>
   <!--1テキストボックスnameに対して、nameプロパティをひも付け-->
-  <input id="name" name="name" type="text" ng-model="name" />
+  <input id="pass" name="pass" type="text" ng-model="pass" />
   <!--2nameプロパティを元に挨拶メッセージを生成-->
-  <div>{{"こんにちは、" + name + "さん！"}}</div>
+  <div>{{"パスワード" + pass + "は"}}</div>
 </form>
+<script>
+  <!--
+  var error = 1
+  if (error >= 1) {
+    document.write("「a」が入っているため使用不可です。")
+  }else{
+    document.write("使用可能です。")
+  }
+  -->
+</script>
 {{2 + 5}}
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
 <script>
@@ -23,7 +33,7 @@
 angular.module('myApp', [])
   .controller('myController', ['$scope', function($scope) {
     // テキストボックスにデフォルト値を与える
-    $scope.name = '名無し';
+    $scope.pass = 'password';
   }]);
 </script>
 </body>
