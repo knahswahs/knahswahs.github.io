@@ -18,5 +18,13 @@
 </form>
 {{2 + 5}}
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+<script>
+// myAppモジュールにmyControllerコントローラーを登録
+angular.module('myApp', [])
+  .controller('myController', ['$scope', function($scope) {
+    // テキストボックスにデフォルト値を与える
+    $scope.name = '名無し';
+  }]);
+</script>
 </body>
 </html>
