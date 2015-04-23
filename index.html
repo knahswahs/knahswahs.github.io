@@ -13,13 +13,13 @@
   <label for="pass">パス：</label>
   <!--1テキストボックスnameに対して、nameプロパティをひも付け-->
   <input id="passinput" name="pass" type="text" ng-model="pass" />
-  <input type="button" value="認証" onclick="confirm(0)">
+  <input type="button" value="認証" onclick="confirm">
   <!--2nameプロパティを元に挨拶メッセージを生成-->
   <div>{{"パスワード" + pass + "は"}}</div>
 </form>
 <script type="text/javascript">
   <!--
-  function confirm (num){
+  function confirm {
   target = document.getElementById("passinput");
   target.innerText = document.forms.passform.passinput.value;
   if ( target.indexOf('a') != -1) {
