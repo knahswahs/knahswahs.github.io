@@ -44,7 +44,7 @@ body > div {
   -webkit-writing-mode: vertical-rl; 
   -ms-writing-mode: tb-rl; 
   font-size: 72px; 
-  line-height: 56px; 
+  line-height: 64px; 
   overflow: hidden; 
   word-break: break-all; 
   white-space: pre-wrap; 
