@@ -25,3 +25,54 @@
    width: 200px; 
    height: 320px; 
  } 
+
+#cpanel { 
+  display: block; 
+  margin: 16px auto; 
+  padding: 0; 
+  width: 640px; 
+} 
+
+#cpanel > nav { 
+  display: inline-block; 
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  float: right; 
+  margin: 0; 
+  padding: 0; 
+  max-width: 132px; 
+} 
+
+#cpanel > nav > button { 
+  display: block;  
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  width: 132px; 
+  height: 36px; 
+  font-size: 16px; 
+  margin-bottom: 4px; 
+} 
+
+#cpanel > textarea { 
+  display: block; 
+  box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+
+  margin: 8px 0 0 0; 
+  padding: 4px 8px; 
+  width: 500px; 
+  max-width: 500px; 
+  height: 70px; 
+  max-height: 70px; 
+
+  font-size: 16px; 
+  line-height: 20px; 
+ 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  -moz-border-radius: 4px; 
+}
+
+.social-button { 
+  margin-top: 6px; 
+} 
