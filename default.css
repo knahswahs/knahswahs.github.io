@@ -43,7 +43,7 @@ body > div {
   padding: 0; 
   -webkit-writing-mode: vertical-rl; 
   -ms-writing-mode: tb-rl; 
-  font-size: 24px; 
+  font-size: 72px; 
   line-height: 36px; 
   overflow: hidden; 
   word-break: break-all; 
@@ -55,7 +55,6 @@ body > div {
    top: 180px; 
    width: 372px; 
    height: 160px;
-   font-size: 300%;
 } 
 
 #script_2tate { 
